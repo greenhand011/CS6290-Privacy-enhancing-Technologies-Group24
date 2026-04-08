@@ -8,7 +8,7 @@ Group 24
 
 ## Repository Contents
 - Source code
-- Notebooks
+- Result
 - Final report
 
 ## Notes
