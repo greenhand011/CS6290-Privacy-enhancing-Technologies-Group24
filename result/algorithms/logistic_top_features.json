@@ -1,0 +1,166 @@
+{
+  "top_positive_features": [
+    {
+      "feature": "great",
+      "weight": 6.365890164143611
+    },
+    {
+      "feature": "excel",
+      "weight": 5.627967631053614
+    },
+    {
+      "feature": "perfect",
+      "weight": 4.700719099882142
+    },
+    {
+      "feature": "enjoy",
+      "weight": 4.285312195193785
+    },
+    {
+      "feature": "love",
+      "weight": 3.9634950006210983
+    },
+    {
+      "feature": "amaz",
+      "weight": 3.608830334011037
+    },
+    {
+      "feature": "beauti",
+      "weight": 3.593485145435722
+    },
+    {
+      "feature": "fun",
+      "weight": 3.5273088565993795
+    },
+    {
+      "feature": "the best",
+      "weight": 3.4943433564143422
+    },
+    {
+      "feature": "today",
+      "weight": 3.3782115017688668
+    },
+    {
+      "feature": "best",
+      "weight": 3.248805231967291
+    },
+    {
+      "feature": "favorit",
+      "weight": 3.240269649928881
+    },
+    {
+      "feature": "brilliant",
+      "weight": 3.1099527355624006
+    },
+    {
+      "feature": "well",
+      "weight": 3.0349291247814167
+    },
+    {
+      "feature": "superb",
+      "weight": 3.0185374617688865
+    },
+    {
+      "feature": "love thi",
+      "weight": 3.0021697381999943
+    },
+    {
+      "feature": "definit",
+      "weight": 2.8403949850350436
+    },
+    {
+      "feature": "thi is",
+      "weight": 2.7441379067197027
+    },
+    {
+      "feature": "fantast",
+      "weight": 2.7431000520886166
+    },
+    {
+      "feature": "still",
+      "weight": 2.7180451295048997
+    }
+  ],
+  "top_negative_features": [
+    {
+      "feature": "bad",
+      "weight": -6.702218207186108
+    },
+    {
+      "feature": "worst",
+      "weight": -6.6725558984647995
+    },
+    {
+      "feature": "aw",
+      "weight": -6.152347956663268
+    },
+    {
+      "feature": "bore",
+      "weight": -5.9051989918281445
+    },
+    {
+      "feature": "wast",
+      "weight": -5.838282732024342
+    },
+    {
+      "feature": "the worst",
+      "weight": -5.2132715900818205
+    },
+    {
+      "feature": "poor",
+      "weight": -4.979479502980188
+    },
+    {
+      "feature": "disappoint",
+      "weight": -4.754342518213303
+    },
+    {
+      "feature": "terribl",
+      "weight": -4.477673729901055
+    },
+    {
+      "feature": "wors",
+      "weight": -4.063779239207486
+    },
+    {
+      "feature": "dull",
+      "weight": -3.9854437309377926
+    },
+    {
+      "feature": "no",
+      "weight": -3.8857191689095774
+    },
+    {
+      "feature": "poorli",
+      "weight": -3.8510911374860517
+    },
+    {
+      "feature": "noth",
+      "weight": -3.794132710618258
+    },
+    {
+      "feature": "horribl",
+      "weight": -3.76102709206758
+    },
+    {
+      "feature": "ridicul",
+      "weight": -3.700331589819813
+    },
+    {
+      "feature": "unfortun",
+      "weight": -3.6308948663257126
+    },
+    {
+      "feature": "stupid",
+      "weight": -3.6117802857918258
+    },
+    {
+      "feature": "fail",
+      "weight": -3.573474737266594
+    },
+    {
+      "feature": "annoy",
+      "weight": -3.4889662228335174
+    }
+  ]
+}
