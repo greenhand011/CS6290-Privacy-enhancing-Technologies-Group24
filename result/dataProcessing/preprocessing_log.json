@@ -1,0 +1,119 @@
+{
+  "preprocessing": {
+    "remove_html": true,
+    "lowercase": true,
+    "remove_digits": true,
+    "normalize_whitespace": true,
+    "stemming": true,
+    "stemmer": "PorterStemmer",
+    "deduplicate_per_split": true,
+    "keep_negation": true
+  },
+  "deduplication_stats": {
+    "initial_rows": 50000,
+    "removed_exact_raw_duplicates": 295,
+    "removed_cleaned_duplicates": 4,
+    "final_rows": 49701,
+    "per_split": {
+      "test": {
+        "initial": 25000,
+        "after_raw_dedup": 24801,
+        "after_clean_dedup": 24799,
+        "removed_raw_duplicates": 199,
+        "removed_cleaned_duplicates": 2
+      },
+      "train": {
+        "initial": 25000,
+        "after_raw_dedup": 24904,
+        "after_clean_dedup": 24902,
+        "removed_raw_duplicates": 96,
+        "removed_cleaned_duplicates": 2
+      }
+    }
+  },
+  "v1_vectorizer_params": {
+    "ngram_range": [
+      1,
+      1
+    ],
+    "max_features": 5000,
+    "min_df": 2,
+    "max_df": 0.95,
+    "fit_split": "train_only"
+  },
+  "v2_vectorizer_params": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 8000,
+    "min_df": 3,
+    "max_df": 0.95,
+    "fit_split": "train_only"
+  },
+  "v3_features": {
+    "char_count": "len(cleaned_review)",
+    "word_count": "token count (alphabetic)",
+    "avg_word_length": "mean token length",
+    "exclaim_count": "count of '!'",
+    "question_count": "count of '?'",
+    "negation_count": [
+      "not",
+      "no",
+      "never",
+      "none",
+      "nor",
+      "cannot",
+      "can't",
+      "won't",
+      "don't",
+      "didn't",
+      "isn't",
+      "wasn't"
+    ],
+    "positive_word_count": {
+      "lexicon_words": [
+        "good",
+        "great",
+        "amazing",
+        "excellent",
+        "fantastic",
+        "love",
+        "wonderful",
+        "best"
+      ],
+      "stemmed_tokens": [
+        "good",
+        "great",
+        "amaz",
+        "excel",
+        "fantast",
+        "love",
+        "wonder",
+        "best"
+      ]
+    },
+    "negative_word_count": {
+      "lexicon_words": [
+        "bad",
+        "awful",
+        "terrible",
+        "horrible",
+        "hate",
+        "poor",
+        "worst",
+        "boring"
+      ],
+      "stemmed_tokens": [
+        "bad",
+        "aw",
+        "terribl",
+        "horribl",
+        "hate",
+        "poor",
+        "worst",
+        "bore"
+      ]
+    }
+  }
+}

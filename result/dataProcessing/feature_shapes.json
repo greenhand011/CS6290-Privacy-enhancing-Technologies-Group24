@@ -1,0 +1,24 @@
+{
+  "cleaned_reviews_rows": 49701,
+  "labels_rows": 49701,
+  "v1_train_shape": [
+    24902,
+    5000
+  ],
+  "v1_test_shape": [
+    24799,
+    5000
+  ],
+  "v2_train_shape": [
+    24902,
+    8000
+  ],
+  "v2_test_shape": [
+    24799,
+    8000
+  ],
+  "v3_shape": [
+    49701,
+    12
+  ]
+}
