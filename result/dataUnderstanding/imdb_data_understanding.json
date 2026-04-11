@@ -1,0 +1,644 @@
+{
+  "dataset_overview": {
+    "total_samples": 50000,
+    "split_counts": {
+      "train": 25000,
+      "test": 25000
+    },
+    "label_counts": {
+      "positive": 25000,
+      "negative": 25000
+    },
+    "class_balance_ratio_pos_over_neg": 1.0,
+    "missing_reviews": 0,
+    "empty_reviews": 0
+  },
+  "text_quality_checks": {
+    "html_tag_reviews": 29202,
+    "contains_br_reviews": 29200,
+    "url_reviews": 202,
+    "non_ascii_reviews": 4660,
+    "whitespace_only_reviews": 0,
+    "repeated_punctuation_reviews": 12662
+  },
+  "length_statistics": {
+    "overall": {
+      "character_count": {
+        "min": 32.0,
+        "max": 13704.0,
+        "mean": 1309.43102,
+        "median": 970.0,
+        "std": 989.7181170827175,
+        "pct_5": 349.0,
+        "pct_25": 699.0,
+        "pct_75": 1590.25,
+        "pct_95": 3391.0
+      },
+      "word_count": {
+        "min": 4.0,
+        "max": 2470.0,
+        "mean": 231.15694,
+        "median": 173.0,
+        "std": 171.3422838351246,
+        "pct_5": 63.0,
+        "pct_25": 126.0,
+        "pct_75": 280.0,
+        "pct_95": 590.0
+      }
+    },
+    "by_split": {
+      "test": {
+        "character_count": {
+          "min": 32.0,
+          "max": 12988.0,
+          "mean": 1293.7924,
+          "median": 962.0,
+          "std": 975.8882419325688,
+          "pct_5": 343.0,
+          "pct_25": 696.0,
+          "pct_75": 1572.0,
+          "pct_95": 3333.0
+        },
+        "word_count": {
+          "min": 4.0,
+          "max": 2278.0,
+          "mean": 228.52668,
+          "median": 172.0,
+          "std": 168.88031504049727,
+          "pct_5": 62.0,
+          "pct_25": 126.0,
+          "pct_75": 277.0,
+          "pct_95": 582.0499999999993
+        }
+      },
+      "train": {
+        "character_count": {
+          "min": 52.0,
+          "max": 13704.0,
+          "mean": 1325.06964,
+          "median": 979.0,
+          "std": 1003.1136072002365,
+          "pct_5": 356.0,
+          "pct_25": 702.0,
+          "pct_75": 1614.0,
+          "pct_95": 3432.0499999999993
+        },
+        "word_count": {
+          "min": 10.0,
+          "max": 2470.0,
+          "mean": 233.7872,
+          "median": 174.0,
+          "std": 173.72955740506566,
+          "pct_5": 64.0,
+          "pct_25": 127.0,
+          "pct_75": 284.0,
+          "pct_95": 598.0
+        }
+      }
+    },
+    "by_label": {
+      "neg": {
+        "character_count": {
+          "min": 32.0,
+          "max": 8969.0,
+          "mean": 1294.06436,
+          "median": 973.0,
+          "std": 945.8737512679958,
+          "pct_5": 367.0,
+          "pct_25": 706.0,
+          "pct_75": 1567.25,
+          "pct_95": 3264.0999999999985
+        },
+        "word_count": {
+          "min": 4.0,
+          "max": 1522.0,
+          "mean": 229.46456,
+          "median": 174.0,
+          "std": 164.9444964344261,
+          "pct_5": 67.0,
+          "pct_25": 128.0,
+          "pct_75": 278.0,
+          "pct_95": 572.0499999999993
+        }
+      },
+      "pos": {
+        "character_count": {
+          "min": 65.0,
+          "max": 13704.0,
+          "mean": 1324.79768,
+          "median": 968.0,
+          "std": 1031.4719970734143,
+          "pct_5": 335.0,
+          "pct_25": 691.0,
+          "pct_75": 1614.0,
+          "pct_95": 3499.0499999999993
+        },
+        "word_count": {
+          "min": 10.0,
+          "max": 2470.0,
+          "mean": 232.84932,
+          "median": 172.0,
+          "std": 177.49349637532526,
+          "pct_5": 60.0,
+          "pct_25": 125.0,
+          "pct_75": 284.0,
+          "pct_95": 607.0
+        }
+      }
+    }
+  },
+  "duplicate_analysis": {
+    "duplicate_rows": 824,
+    "duplicate_groups": 406,
+    "conflicting_label_groups": 0,
+    "conflicting_examples": []
+  },
+  "vocabulary_analysis": {
+    "total_tokens": 11753379,
+    "vocabulary_size": 121589,
+    "top_words": [
+      {
+        "rank": 1,
+        "word": "the",
+        "frequency": 666832,
+        "is_stopword": true
+      },
+      {
+        "rank": 2,
+        "word": "and",
+        "frequency": 324431,
+        "is_stopword": true
+      },
+      {
+        "rank": 3,
+        "word": "a",
+        "frequency": 322903,
+        "is_stopword": true
+      },
+      {
+        "rank": 4,
+        "word": "of",
+        "frequency": 289389,
+        "is_stopword": true
+      },
+      {
+        "rank": 5,
+        "word": "to",
+        "frequency": 268090,
+        "is_stopword": true
+      },
+      {
+        "rank": 6,
+        "word": "is",
+        "frequency": 211063,
+        "is_stopword": true
+      },
+      {
+        "rank": 7,
+        "word": "br",
+        "frequency": 201954,
+        "is_stopword": false
+      },
+      {
+        "rank": 8,
+        "word": "in",
+        "frequency": 186714,
+        "is_stopword": true
+      },
+      {
+        "rank": 9,
+        "word": "it",
+        "frequency": 156943,
+        "is_stopword": true
+      },
+      {
+        "rank": 10,
+        "word": "i",
+        "frequency": 155005,
+        "is_stopword": true
+      },
+      {
+        "rank": 11,
+        "word": "this",
+        "frequency": 150954,
+        "is_stopword": true
+      },
+      {
+        "rank": 12,
+        "word": "that",
+        "frequency": 137031,
+        "is_stopword": true
+      },
+      {
+        "rank": 13,
+        "word": "was",
+        "frequency": 95589,
+        "is_stopword": true
+      },
+      {
+        "rank": 14,
+        "word": "as",
+        "frequency": 91753,
+        "is_stopword": true
+      },
+      {
+        "rank": 15,
+        "word": "for",
+        "frequency": 87461,
+        "is_stopword": true
+      },
+      {
+        "rank": 16,
+        "word": "with",
+        "frequency": 87362,
+        "is_stopword": true
+      },
+      {
+        "rank": 17,
+        "word": "movie",
+        "frequency": 87066,
+        "is_stopword": false
+      },
+      {
+        "rank": 18,
+        "word": "but",
+        "frequency": 83547,
+        "is_stopword": true
+      },
+      {
+        "rank": 19,
+        "word": "film",
+        "frequency": 77702,
+        "is_stopword": false
+      },
+      {
+        "rank": 20,
+        "word": "on",
+        "frequency": 68037,
+        "is_stopword": true
+      },
+      {
+        "rank": 21,
+        "word": "not",
+        "frequency": 60720,
+        "is_stopword": true
+      },
+      {
+        "rank": 22,
+        "word": "you",
+        "frequency": 60334,
+        "is_stopword": true
+      },
+      {
+        "rank": 23,
+        "word": "are",
+        "frequency": 58373,
+        "is_stopword": true
+      },
+      {
+        "rank": 24,
+        "word": "his",
+        "frequency": 57546,
+        "is_stopword": true
+      },
+      {
+        "rank": 25,
+        "word": "have",
+        "frequency": 55188,
+        "is_stopword": true
+      },
+      {
+        "rank": 26,
+        "word": "be",
+        "frequency": 53366,
+        "is_stopword": true
+      },
+      {
+        "rank": 27,
+        "word": "one",
+        "frequency": 53047,
+        "is_stopword": true
+      },
+      {
+        "rank": 28,
+        "word": "he",
+        "frequency": 52564,
+        "is_stopword": true
+      },
+      {
+        "rank": 29,
+        "word": "all",
+        "frequency": 46897,
+        "is_stopword": true
+      },
+      {
+        "rank": 30,
+        "word": "at",
+        "frequency": 46795,
+        "is_stopword": true
+      },
+      {
+        "rank": 31,
+        "word": "by",
+        "frequency": 44473,
+        "is_stopword": true
+      },
+      {
+        "rank": 32,
+        "word": "an",
+        "frequency": 42944,
+        "is_stopword": true
+      },
+      {
+        "rank": 33,
+        "word": "they",
+        "frequency": 41928,
+        "is_stopword": true
+      },
+      {
+        "rank": 34,
+        "word": "so",
+        "frequency": 40858,
+        "is_stopword": true
+      },
+      {
+        "rank": 35,
+        "word": "who",
+        "frequency": 40638,
+        "is_stopword": true
+      },
+      {
+        "rank": 36,
+        "word": "from",
+        "frequency": 40485,
+        "is_stopword": true
+      },
+      {
+        "rank": 37,
+        "word": "like",
+        "frequency": 40161,
+        "is_stopword": false
+      },
+      {
+        "rank": 38,
+        "word": "or",
+        "frequency": 35760,
+        "is_stopword": true
+      },
+      {
+        "rank": 39,
+        "word": "just",
+        "frequency": 35167,
+        "is_stopword": false
+      },
+      {
+        "rank": 40,
+        "word": "her",
+        "frequency": 34776,
+        "is_stopword": true
+      },
+      {
+        "rank": 41,
+        "word": "out",
+        "frequency": 34158,
+        "is_stopword": true
+      },
+      {
+        "rank": 42,
+        "word": "about",
+        "frequency": 34154,
+        "is_stopword": true
+      },
+      {
+        "rank": 43,
+        "word": "if",
+        "frequency": 33963,
+        "is_stopword": true
+      },
+      {
+        "rank": 44,
+        "word": "it's",
+        "frequency": 33488,
+        "is_stopword": false
+      },
+      {
+        "rank": 45,
+        "word": "has",
+        "frequency": 33036,
+        "is_stopword": true
+      },
+      {
+        "rank": 46,
+        "word": "there",
+        "frequency": 31314,
+        "is_stopword": true
+      },
+      {
+        "rank": 47,
+        "word": "some",
+        "frequency": 31126,
+        "is_stopword": true
+      },
+      {
+        "rank": 48,
+        "word": "what",
+        "frequency": 30599,
+        "is_stopword": true
+      },
+      {
+        "rank": 49,
+        "word": "good",
+        "frequency": 29655,
+        "is_stopword": false
+      },
+      {
+        "rank": 50,
+        "word": "when",
+        "frequency": 28047,
+        "is_stopword": true
+      }
+    ]
+  },
+  "negation_counts": {
+    "not": 60720,
+    "no": 25262,
+    "never": 12963,
+    "none": 1978,
+    "nor": 1283,
+    "cannot": 2101,
+    "can't": 7040,
+    "won't": 2423,
+    "don't": 16850,
+    "didn't": 8723,
+    "isn't": 6290,
+    "wasn't": 4459
+  },
+  "sentiment_word_counts": {
+    "positive": {
+      "good": 29655,
+      "great": 18121,
+      "amazing": 2518,
+      "excellent": 4098,
+      "fantastic": 1517,
+      "love": 12899,
+      "wonderful": 3216,
+      "best": 12588
+    },
+    "negative": {
+      "bad": 18395,
+      "awful": 3437,
+      "terrible": 3325,
+      "horrible": 2521,
+      "hate": 1643,
+      "poor": 3838,
+      "worst": 5326,
+      "boring": 3640
+    }
+  },
+  "sample_inspection": {
+    "train_positive": [
+      {
+        "index": 1766,
+        "label": 1,
+        "label_name": "pos",
+        "file_path": "aclImdb\\train\\pos\\11590_10.txt",
+        "text_preview": "Oh, the sixties. There were some interesting films. I was more of a movie goer then. I now enjoy renting movies and relaxing in my home rather than going to the theater. I also saw this short film, \" The Legend of the Boy and the Eagle\". I have been searching for this film for years. It was truly inspiring. Surprisingly, I was finally able to gather more information from your site. Thank You........ I'm surprised to find out that this short film was an opening for a Disney picture. I too did not"
+      },
+      {
+        "index": 11919,
+        "label": 1,
+        "label_name": "pos",
+        "file_path": "aclImdb\\train\\pos\\9479_10.txt",
+        "text_preview": "Tian's remake is no good at all. I only click on his remake documentary to see Wei Wei, the original actress back in the classic 1948 film say a few words to the crew. We are going to meet Wei Wei this Sunday (28/3/2010) after the showing of Xiao Cheng Zhi Chun in the Hong Kong Film Archiev. Wei Wei is almost 90 years old in silver hair, her cameo appearance in Hong Kong films is always a surprise to her fans. In this year's Hong Kong Film Festival, a special program is dedicated to Fei Mu, dire"
+      },
+      {
+        "index": 8909,
+        "label": 1,
+        "label_name": "pos",
+        "file_path": "aclImdb\\train\\pos\\676_8.txt",
+        "text_preview": "'The Last Wave' is far more than the sum of its parts. It's not merely a disaster film, not simply an exploration into Australian Aboriginal spirituality, and certainly more than a simple court drama. Writer/Director Peter Weir manages to take these elements to the next level to produce a truly effective and thought-provoking film with the same eerie atmosphere he gave to 'Picnic At Hanging Rock' two years earlier, that you will continue to remember years later.<br /><br />When lawyer David Burt"
+      },
+      {
+        "index": 4963,
+        "label": 1,
+        "label_name": "pos",
+        "file_path": "aclImdb\\train\\pos\\3217_8.txt",
+        "text_preview": "Kurt Russell is so believable and the action so non-stop that it takes thinking about it afterward to realize that there were honest-to-goodness important themes [overcoming fear of The Stranger, learning to rise above early conditioning, the strength that love and friendship can bring, etc.] in the storyline. This is so very rare for a 'guy's action flick' that even I [who thinks most A/A is violent pap] liked the film and have recommended it to every guy I know.....it's a shame this one was ov"
+      },
+      {
+        "index": 10099,
+        "label": 1,
+        "label_name": "pos",
+        "file_path": "aclImdb\\train\\pos\\7840_8.txt",
+        "text_preview": "BORN TO BOOGIE is a real 'find'--though a rock fan for nearly thirty years, I only first saw the film a few days ago, and rank it among the top rock films of all time; the music's terrific (the cream of T. Rex) and the visuals consistently exciting and unusual, leaving this viewer craving any more past directorial efforts of Ringo Starr, who did a fine job here. If you love the music, you'll be in T. Rextasy throughout, as Marc Bolan really is the star of the piece, front and center. Even the fa"
+      },
+      {
+        "index": 2754,
+        "label": 1,
+        "label_name": "pos",
+        "file_path": "aclImdb\\train\\pos\\1247_8.txt",
+        "text_preview": "I loved this movie. I totally disagree with some (negative) critiques that I've read over the years. This was a great vehicle for Eddie Murphy! He appeared to have a great time with his part as Chandler Jarrell and he should never care about what the critics say, if he had fun doing it  and most of his audience enjoyed it! And, it WAS fun to watch as it combined some great fantasy tension with Mr. Murphy's great comedic style. You have to keep in mind that 'Golden Child' is a 'fantasy' film  j"
+      },
+      {
+        "index": 2858,
+        "label": 1,
+        "label_name": "pos",
+        "file_path": "aclImdb\\train\\pos\\1322_8.txt",
+        "text_preview": "What a fascinating film. Even if it wasn't based on real life, Forbidden Lies was a fascinating portrait of a con artist in her element. And it is the kind of film psychology students could study to learn about compulsive liars.<br /><br />The author of Forbidden Love, Norma, was revealed as a fraud in the media but this move really does give her ample opportunity to clear her name.<br /><br />But the twists and turns she takes the documentary maker through are amazing. What a patient woman! I l"
+      },
+      {
+        "index": 5568,
+        "label": 1,
+        "label_name": "pos",
+        "file_path": "aclImdb\\train\\pos\\3762_8.txt",
+        "text_preview": "Alex Winter and Keanu Reeves return as the two dopes from San Dimas who get sent on another trip of a lifetime as someone from the future feels exactly the opposite the way it was presented in the first movie.<br /><br />The only difference is that their trip is \"somewhere\" between Heaven and Hell and ends up being both. When they meet the Grim Reaper, they get the chance of an after-lifetime to play him for a chance to return and stop two evil robots from ruining what future they were supposed "
+      },
+      {
+        "index": 11673,
+        "label": 1,
+        "label_name": "pos",
+        "file_path": "aclImdb\\train\\pos\\9257_7.txt",
+        "text_preview": "Is this your typical women in chains navy transport love story? Maybe, hell, you know how the formula works by now, pretty woman is introduced in to a picture, someone has to fall in love with her.<br /><br />I think this film does follow some typical story lines, but that doesn't say anything about the content. There are great scenes with Crispen Glover, Dennis Hopper, and Gary Busey, although short. Some things didn't make sense, such as the need to get in to random fights, but it is entertain"
+      },
+      {
+        "index": 5778,
+        "label": 1,
+        "label_name": "pos",
+        "file_path": "aclImdb\\train\\pos\\3951_10.txt",
+        "text_preview": "I have seen this film only once, on TV, and it has not been repeated. This is strange when you consider the rubbish that is repeated over and over again. Usually horror movies for me are a source of amusement, but this one really scared me.<br /><br />DO NOT READ THE NEXT BIT IF YOU HAVE'NT SEEN THE FILM YET<br /><br />The scariest bit is when the townsfolk pursue the preacher to where his wife lies almost dead (they'd been poisoning her). He asks who the hell are you people anyway. One by one t"
+      }
+    ],
+    "train_negative": [
+      {
+        "index": 14266,
+        "label": 0,
+        "label_name": "neg",
+        "file_path": "aclImdb\\train\\neg\\11590_3.txt",
+        "text_preview": "It's getting worse, the series is on a serious down fall. The first two sequel were acceptable and from then on we have seen a buch of really, really terrible movies. Robert Englund gives another great performance as Freddy but the rest of the cast can't act. The story is Alice, having survived the previous installment of the Nightmare series, finds the deadly dreams of Freddy Krueger starting once again. This time, the taunting murderer is striking through the sleeping mind of Alice's unborn ch"
+      },
+      {
+        "index": 24419,
+        "label": 0,
+        "label_name": "neg",
+        "file_path": "aclImdb\\train\\neg\\9479_2.txt",
+        "text_preview": "This movie seemed like it was going to be better than it ended up being. The cinematography is good, the acting seemed solid, the dialogue wasn't too stiff... but then about twenty minutes in there's this long scene with a Doctor who you know is actually a patient at the asylum pretending to be a Doctor - and it just goes south from there.<br /><br />On top of that, the demon is about the silliest looking hellspawn since the Godzilla-looking thing in Curse of the Demon. There's also some odd dem"
+      },
+      {
+        "index": 21409,
+        "label": 0,
+        "label_name": "neg",
+        "file_path": "aclImdb\\train\\neg\\676_4.txt",
+        "text_preview": "I wanted to see it because of two reasons. One, it was the remake of High Sierra with Bogart, two, the Bogart part was played by Jack Palance, whom can play dramatic roles with some subtility, as in The Big Knife.<br /><br />But now I wonder why they decided to shoot this remake. The film follows the same plot as Hig Sierra; only here, the actors don't care, the director is lost in his thoughts, and who knows what the producer was thinking. Jack Palance is getting bored looking at Shelley Winter"
+      },
+      {
+        "index": 17463,
+        "label": 0,
+        "label_name": "neg",
+        "file_path": "aclImdb\\train\\neg\\3217_4.txt",
+        "text_preview": "A missed train. A wrong phone number. An extra cup of coffee. What happens to those around you when you make a seemingly innocuous decision? Most people don't give it a thought as they absorbed in their own thoughts and actions.<br /><br />\"Happenstance\" tells the story of the interrelations and cause-and-effect of the mundane as it pertains to a group of normal Parisian folk. It has all the components of what passes for contemporary theater, with the full cast of the dysfunctional and disillusi"
+      },
+      {
+        "index": 22599,
+        "label": 0,
+        "label_name": "neg",
+        "file_path": "aclImdb\\train\\neg\\7840_4.txt",
+        "text_preview": "This movie is told through the eyes of a young teacher at a catholic school, watching as the RAWANDAN genocide un-furls around him.<br /><br />The movie starts off with a brief explanation about the past history and rivalry of Rawanda. Then it jumps to the story as told through the eyes of a young idealistic \"NEW-COMER\" a young teacher who doesn't take life or the situation too seriously. As he and the driver approach a road-block he plays around with his drivers I.D. not realizing that this is "
+      },
+      {
+        "index": 15254,
+        "label": 0,
+        "label_name": "neg",
+        "file_path": "aclImdb\\train\\neg\\1247_4.txt",
+        "text_preview": "Not good! Rent or buy the original! Watch this only if someone has a gun to your head and then....maybe.<br /><br />It is like claiming an Elvis actor is as good as the real King."
+      },
+      {
+        "index": 15358,
+        "label": 0,
+        "label_name": "neg",
+        "file_path": "aclImdb\\train\\neg\\1322_1.txt",
+        "text_preview": "....because if I was, I may have wished it was me being crucified on a wooden cross! I'm still trying to determine the plot of this movie - and I'm being \"generous\" that there was even a plot to begin with. As previously mentioned, it's a misnomer on the cover of the DVD that Richard Dreyfuss is actually the star. He was barely in the movie. And if he was indeed \"frustrated\" as the back cover indicated he was, well, that's probably because he said YES to be in this disaster of a movie and couldn"
+      },
+      {
+        "index": 18068,
+        "label": 0,
+        "label_name": "neg",
+        "file_path": "aclImdb\\train\\neg\\3762_3.txt",
+        "text_preview": "I got this movie out of Blockbuster in one of those racks were you can get like 5 movies for 20 bucks. I'd have to say I got my money's worth on this one. I had expected horrible dialogue, crappy monsters, and shaky cameras. Well, as Meatloaf said, two outta three ain't bad.<br /><br />The acting is bad, though not as bad as some movies I've seen. Or maybe I've watched so many low budget movies recently I've lost perspective. There are some bits were the acting is downright terrible, but for the"
+      },
+      {
+        "index": 24173,
+        "label": 0,
+        "label_name": "neg",
+        "file_path": "aclImdb\\train\\neg\\9257_4.txt",
+        "text_preview": "If you are hoping for ANYTHING new, you have chosen the wrong movie. Who can think that a movie that is a virtual replay of it's predeccesors can be good. Maybe the producer and maybe the director but hopefully they were not serious when they made this THING. This whole movie is like making a greatest hits DVD of the 1st 3 films, but changing the actors. BHHAAAAD."
+      },
+      {
+        "index": 18278,
+        "label": 0,
+        "label_name": "neg",
+        "file_path": "aclImdb\\train\\neg\\3951_2.txt",
+        "text_preview": "Ulli Lommel's 1980 film 'The Boogey Man' is no classic, but it's an above average low budget chiller that's worth a look. The sequel, 1983s 'Boogey Man II' is ultimately a waste of time, but at the very least it's an entertaining one if not taken the least bit seriously. Now II left the door open for another sequel, and I for one wouldn't have minded seeing at least one more. One day while I was browsing though the videos at a store in the mall I came across a film entitled 'Return of the Boogey"
+      }
+    ]
+  }
+}

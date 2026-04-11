@@ -1,7 +1,7 @@
-# CS6290 Privacy-enhancing Technologies Group24
+# CS5483 Data Warehousing & Data Mining (Group24)
 
 ## Course
-CS6290 Privacy-enhancing Technologies
+CS5483 Data Warehousing & Data Mining
 
 ## Team
 Group 24
@@ -10,6 +10,9 @@ Group 24
 - Source code
 - Result
 - Final report
+
+## Dataset
+https://ai.stanford.edu/~amaas/data/sentiment/
 
 ## Notes
 This repository is created for the group project submission.
